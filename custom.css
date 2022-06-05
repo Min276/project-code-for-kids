@@ -1,0 +1,32 @@
+.circle {
+    background: white;
+    width: 5rem;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.skill-text {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .element {
+        display: none;
+    }
+    .banner-image {
+        width: 60%!important;
+        margin-bottom: 2rem;
+    }
+}
